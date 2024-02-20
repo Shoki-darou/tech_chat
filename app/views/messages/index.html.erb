@@ -1,1 +1,5 @@
-<%= @messages.each do |message|%>
+<% @messages.each do |message|%>
+タイトル：<%= message.title %><br>
+内容：<%= message.comment %><br>
+投稿者名：<%= message.name %><br><br>
+<% end %>

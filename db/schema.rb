@@ -12,8 +12,8 @@
 
 ActiveRecord::Schema[7.0].define(version: 2024_02_12_031331) do
   create_table "messages", charset: "utf8mb4", force: :cascade do |t|
-    t.integer "name"
-    t.text "title"
+    t.string "name"
+    t.string "title"
     t.text "comment"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

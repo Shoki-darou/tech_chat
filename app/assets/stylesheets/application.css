@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+
+
+header {
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #1c3667;
+}
+
+.title {
+  font-size: 23px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1.8px;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.ask-question a {
+  width: 80px;
+  font-size: 16px;
+  border-radius: 5px;
+  line-height: 32px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  color: #3a3736;
+  background-color: #ffffff; /* ボタンの背景色 */
+}
+
+.ask-question a:hover {
+  background-color: #4682B4; /* ボタンの背景色（ホバー時） */
+}

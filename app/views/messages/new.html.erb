@@ -1,0 +1,10 @@
+<%= form_with model: @message, url: messages_path do |form| %>
+
+  <%= form.text_field :title %>
+
+  <%= form.text_area :comment %>
+
+  <%= form.text_field :name %>
+
+  <%= form.submit "POST" %>
+<% end %>
